@@ -1,0 +1,5 @@
+p = float(input())
+t = float(input())
+r = float(input())
+CI = p * ((1 + r/100) ** t)
+print(f"{CI:.2f})
